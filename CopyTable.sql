@@ -10,23 +10,22 @@ CopyStatus varchar(20) check (CopyStatus in ('Borrowed', 'Available'))
 );
 
 INSERT INTO Copy(BookID, CopyStatus)
-VALUES (1, 'Available'),
+VALUES (1, 'Borrowed'),
 (1, 'Borrowed'),
 (1, 'Available'),
-(2, 'Available'),
 (2, 'Borrowed'),
+(2, 'Available'),
 (3, 'Available'),
+(3, 'Borrowed'),
 (3, 'Available'),
-(3, 'Available'),
-(4, 'Borrowed'),
+(4, 'Available'),
 (5, 'Available'),
 (6, 'Available'),
 (6, 'Available'),
 (6, 'Available'),
 (7, 'Available'),
-(7, 'Borrowed');
+(7, 'Available');
 
 select *
-from Copy;
-
+from copy;
 

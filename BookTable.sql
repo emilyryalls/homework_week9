@@ -22,3 +22,6 @@ VALUES(9780747532699,'Harry Potter',1997,1,1),
 (9781234566543,'Much Ado About Nothing',1993,1,3),
 (9780723247702,'The Tale of Peter Rabbit',1902,1,4),
 (9780061120084,'To Kill a Mockingbird',1960,1,6);
+
+select * 
+from user;

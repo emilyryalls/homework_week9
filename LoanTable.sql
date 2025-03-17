@@ -24,7 +24,7 @@ VALUES (1, 2, '2025-03-03', NULL),
 (7, 4, '2025-02-24', NULL),
 (8, 7, '2025-02-28', NULL);
 
+drop table loan;
 select *
-from Loan;
-
+from loan;
 
