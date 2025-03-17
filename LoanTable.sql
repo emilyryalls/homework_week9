@@ -13,3 +13,18 @@ CREATE TABLE Loan
     CHECK (ReturnDate IS NULL OR ReturnDate >= BorrowDate)
 );
 
+INSERT INTO Loan(UserID, CopyID, BorrowDate, ReturnDate)
+VALUES (1, 2, '2025-03-03', NULL),
+(4, 6, '2025-02-24', '2025-03-08'),
+(4, 3, '2025-02-24', '2025-03-08'),
+(4, 7, '2025-02-24', '2025-03-08'),
+(6, 3, '2025-02-15', '2025-03-05'),
+(6, 1, '2025-02-15', '2025-03-05'),
+(5, 1, '2025-03-07', NULL),
+(7, 4, '2025-02-24', NULL),
+(8, 7, '2025-02-28', NULL);
+
+select *
+from Loan;
+
+
