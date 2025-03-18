@@ -1,5 +1,7 @@
  use library_group_3;
  
+ -- As a librarian I wan to update the Return Date of a Loan
+ -- so  I can keep a record of when the book was returned
  DELIMITER //
  
 create procedure ReturnBook(
