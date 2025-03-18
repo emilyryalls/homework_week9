@@ -23,7 +23,9 @@ LEFT OUTER JOIN
 book as b
 ON c.BookID = b.BookID;
 
-drop view vShowAllUsers;
+select *
+from vShowAllUsers
+
 
 CREATE PROCEDURE pGetLoanID
 
